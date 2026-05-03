@@ -1,7 +1,7 @@
 # LIQAA Cloud — public changelog
 
 What's new across the LIQAA platform — API, SDKs, console, infrastructure.
-Format follows [Keep a Changelog](https://keepachangelog.com).
+Format follows [Keep a Changelog 1.1](https://keepachangelog.com/en/1.1.0/) · versioning is [SemVer 2.0](https://semver.org).
 
 For SDK-specific changes, see each repo's `CHANGELOG.md`:
 - [@liqaa/js](https://github.com/hartemyaakoub/liqaa-js/blob/main/CHANGELOG.md)
@@ -11,9 +11,19 @@ For SDK-specific changes, see each repo's `CHANGELOG.md`:
 
 ---
 
-## [2026-05-03]
+## [1.0.0] — 2026-05-03
+
+First general-availability release. The platform is now feature-complete for the documented v1 surface.
 
 ### Added
+- **Architecture Decision Records** — public [`liqaa-architecture`](https://github.com/hartemyaakoub/liqaa-architecture) repo with 10 ADRs and 5 system diagrams covering every load-bearing engineering choice.
+- **Examples library** — five production-grade templates in [`liqaa-examples`](https://github.com/hartemyaakoub/liqaa-examples): support widget, telehealth, virtual classroom, sales demo, interview platform.
+- **Cross-SDK compliance suite** — [`liqaa-compliance`](https://github.com/hartemyaakoub/liqaa-compliance) runs the same scenarios against JS, PHP, Python, and Go SDKs in matrix CI. 60-cell green grid required for release.
+- **Public RFC process** — substantial changes now go through [`liqaa-rfcs`](https://github.com/hartemyaakoub/liqaa-rfcs) (Rust-RFC inspired).
+- **Brand kit** — logos, OG images, embed snippets, brand guidelines published at [`liqaa-assets`](https://github.com/hartemyaakoub/liqaa-assets).
+- **CLI** — `npx @liqaa/cli` ships rooms, tokens, webhooks, and shell completion.
+- **VS Code extension** — inline docs + room management in-editor.
+- **Next.js 16 + React 19 starter templates**.
 - **MCP server (`@liqaa/mcp`)** — let AI agents (Claude Desktop, Cursor, Continue) start video calls via the Model Context Protocol. Supports `liqaa_create_room`, `liqaa_issue_sdk_token`, webhook management, plus live docs as MCP resources.
 - **Polyglot SDKs** — official server-side SDKs for **PHP** (Composer), **Python** (PyPI), and **Go** (`go get`). Same API surface as the JS SDK.
 - **OpenAPI 3.1 spec** — published at [`hartemyaakoub/liqaa-openapi`](https://github.com/hartemyaakoub/liqaa-openapi). Generate clients in 50+ languages via `openapi-generator`.
