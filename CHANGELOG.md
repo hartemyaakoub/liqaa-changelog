@@ -16,6 +16,7 @@ For SDK-specific changes, see each repo's `CHANGELOG.md`:
 First general-availability release. The platform is now feature-complete for the documented v1 surface.
 
 ### Added
+- 🎥 **LIQAA Meet** — flagship open-source video meeting platform at [`liqaa-meet`](https://github.com/hartemyaakoub/liqaa-meet). Self-host in 60 seconds. In-browser AI captions, post-call AI summary (Ollama / OpenAI / Anthropic), AGPL-3.0. Live demo at [meet.liqaa.io](https://meet.liqaa.io).
 - **Architecture Decision Records** — public [`liqaa-architecture`](https://github.com/hartemyaakoub/liqaa-architecture) repo with 10 ADRs and 5 system diagrams covering every load-bearing engineering choice.
 - **Examples library** — five production-grade templates in [`liqaa-examples`](https://github.com/hartemyaakoub/liqaa-examples): support widget, telehealth, virtual classroom, sales demo, interview platform.
 - **Cross-SDK compliance suite** — [`liqaa-compliance`](https://github.com/hartemyaakoub/liqaa-compliance) runs the same scenarios against JS, PHP, Python, and Go SDKs in matrix CI. 60-cell green grid required for release.
