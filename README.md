@@ -2,7 +2,7 @@
 
 Everything we ship across the LIQAA platform — API, SDKs, console, infrastructure.
 
-📜 **[Read the changelog →](./CHANGELOG.md)**
+**[Read the changelog →](./CHANGELOG.md)**
 
 This repo is the canonical source for "what's new at LIQAA". For SDK-specific notes, each repo also has its own `CHANGELOG.md`.
 
@@ -27,9 +27,9 @@ Section headings:
 
 ## Subscribe
 
-- ⭐ **Watch this repo → Releases only** for email notifications on every release.
-- 🟢 **[status.liqaa.io](https://liqaa.io/status)** for live incident updates.
-- 📧 **[partners@tkawen.com](mailto:partners@tkawen.com)** for breaking-change pre-announcements.
+- **Watch this repo → Releases only** for email notifications on every release.
+- **[status.liqaa.io](https://liqaa.io/status)** for live incident updates.
+- **[partners@tkawen.com](mailto:partners@tkawen.com)** for breaking-change pre-announcements.
 
 ## License
 
