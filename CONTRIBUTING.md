@@ -1,13 +1,13 @@
 # Contributing to LIQAA
 
-Thanks for your interest! This repo is part of the [LIQAA platform](https://github.com/hartemyaakoub) — a 22-repo open-source ecosystem for real-time video.
+Thanks for your interest. This repo is part of the [LIQAA platform](https://github.com/hartemyaakoub) — a 22-repo open-source ecosystem for real-time video.
 
 ## Quick links
 
-- 🐛 **Bug reports / feature requests:** open an issue here
-- 🔐 **Security issues:** [security@liqaa.io](mailto:security@liqaa.io) (do **not** open public issues)
-- 📜 **Substantial changes:** propose an [RFC](https://github.com/hartemyaakoub/liqaa-rfcs)
-- 💬 **Questions / discussion:** [GitHub Discussions](https://github.com/hartemyaakoub/liqaa-meet/discussions)
+- **Bug reports and feature requests:** open an issue here
+- **Security issues:** [security@liqaa.io](mailto:security@liqaa.io) (do **not** open public issues)
+- **Substantial changes:** propose an [RFC](https://github.com/hartemyaakoub/liqaa-rfcs)
+- **Questions and discussion:** [GitHub Discussions](https://github.com/hartemyaakoub/liqaa-meet/discussions)
 
 ## Pull requests
 
